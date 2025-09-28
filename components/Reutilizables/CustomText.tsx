@@ -8,7 +8,7 @@ interface CustomTextPropierties{
 
 const CustomText = ({value, variant="normal"}:CustomTextPropierties) => {
   return (
-    <text className={selectVariant(variant)}>{value}</text>
+    <Text className={selectVariant(variant)}>{value}</Text>
   )
 }
 export default CustomText
