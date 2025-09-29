@@ -13,11 +13,11 @@ const ProfileDetails = () => {
       />
       <CustomText value='Ricardo Arias' variant='title'></CustomText>
       <CustomText value='Estudiante' variant='subtitle'></CustomText>
-      <View className='flex-row justify-center  gap-3'>
-        <IconButton coloricon='white' icon="square-instagram" pulsar={() => console.log('Instagram')} />
-        <IconButton coloricon='white' icon="square-github" pulsar={() => console.log('GitHub')} color='#1F1D1D' />
-        <IconButton coloricon='white' icon="square-facebook" pulsar={() => console.log('Facebook')} color='#1877F2' />
-        <IconButton coloricon='white' icon="square-twitter" pulsar={() => console.log('Twitter')} color='#1DA1F2' />
+      <View className='flex-row justify-center gap-3'>
+        <IconButton variante='icon' coloricon='white' icon="square-instagram" pulsar={() => console.log('Instagram')} />
+        <IconButton variante='icon' coloricon='white' icon="square-github" pulsar={() => console.log('GitHub')} color='#1F1D1D' />
+        <IconButton variante='icon' coloricon='white' icon="square-facebook" pulsar={() => console.log('Facebook')} color='#1877F2' />
+        <IconButton variante='icon' coloricon='white' icon="square-twitter" pulsar={() => console.log('Twitter')} color='#1DA1F2' />
       </View>
       </View>   
   )

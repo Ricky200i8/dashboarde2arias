@@ -19,9 +19,7 @@ function selectVariant(variante:string){
             return "text-2xl font-bold text-white"           
         case "subtitle":
             return "text-xl font-bold text-black"     
-        case "normal":
-            return "text-base font-bold text-white"  
         default:
-            return "text-xs text-gray-400"  
+            return "text-base font-bold text-white"  
     }
 }

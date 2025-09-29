@@ -9,10 +9,10 @@ const MenuDetails = () => {
       <View className='flex-1 w-full rounded-t-[50] pt-[30] px-[35] bg-white'>
           <CustomText value="Skill" variant="subtitle"></CustomText>
           <View className='mt-4 mb-14 flex-row items-center justify-between'>
-          <IconButton coloricon='white' tamano={45} icon="square-odnoklassniki" color='#006CE4' pulsar={() => console.log('Op1')} />
-          <IconButton coloricon='white' tamano={45} icon="square-behance" color='#006CE4' pulsar={() => console.log('Op2')} />
-          <IconButton coloricon='white' tamano={45} icon="square-hacker-news" color='#006CE4' pulsar={() => console.log('Op3')} />
-          <IconButton coloricon='white' tamano={45} icon="square-nfi" color='#006CE4' pulsar={() => console.log('Op4')} />
+          <IconButton texto='Xd' variante='text' coloricon='#BB5E9C' tamano={45} color='#eab308' pulsar={() => console.log('Op1')} />
+          <IconButton texto='Ai' variante='text' coloricon='#D9583B' tamano={45} color='#eab308' pulsar={() => console.log('Op2')} />
+          <IconButton texto='Ps' variante='text' coloricon='#4659A8' tamano={45} color='#eab308' pulsar={() => console.log('Op3')} />
+          <IconButton texto='Ae' variante='text' coloricon='#80538A' tamano={45} color='#eab308' pulsar={() => console.log('Op4')} />
         </View>
         <CustomText value="Profession" variant="subtitle" ></CustomText>
         <TextInput 
